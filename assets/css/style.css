@@ -1,0 +1,49 @@
+* {
+        box-sizing: border-box;
+}
+
+body {
+        width: 80vw;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        margin: auto;
+        color: rgb(97, 96, 96);
+        background: url(../img/office.jpg);
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+}
+
+a {
+        color: rgb(97, 96, 96);
+        text-decoration: none;
+
+    }
+
+.tabble {      
+        display: flex;
+        margin: auto;
+        gap: 50px;
+}
+
+h1 {
+        text-align: center;
+}
+
+p {
+      text-align: center;  
+}
+
+main {
+        display: flex;
+        flex-direction: column;
+}
+
+header {
+        flex-grow: 1;
+}
+
+footer {
+        flex-grow: 1;
+}
