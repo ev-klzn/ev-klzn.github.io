@@ -1,0 +1,35 @@
+    body {
+            width: 600px;
+            text-align: justify;
+            font-style: oblique;
+            margin: auto;
+            color: #ffffff;
+            background-image: radial-gradient(circle, #085f62, #006a69, #00756e, #008072, #0b8b74);
+    }
+    h1 { 
+            text-shadow: 0px 0px 10px #ffffff;
+            text-align: center;    
+    }
+    h2 { 
+            text-align: center;    
+    }
+    .but1 {
+            background-color: #02507e;
+            border: 1px solid #121111;
+            padding: 10px;
+            border-radius: 7px;
+            color: #ffffff;
+    }    
+    .but2 {
+            background-color: #037bc0;
+            border: 1px solid #121111;
+            padding: 10px;
+            border-radius: 7px;
+            color: #ffffff;
+    }
+
+    a {
+        color: white;
+        text-decoration: none
+    }
+    

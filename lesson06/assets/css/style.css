@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+.component {
+    width: 250px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.component>.bg {
+    background-image: linear-gradient(to top, #b9babb, #a5a7a8, #929595, #808382, #6e7170);
+    height: 100px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.component>.img {
+    width: 130px;
+    border-radius: 65px;
+    margin-top: -65px;
+    border: 5px solid rgb(255, 253, 253);
+    box-shadow: 0px 0px 10px black;
+    
+}
+
+.component>h2 {
+    margin: 10px;
+}
+
+.component>p {
+    margin: 10px 20px;
+    text-align: justify;
+}
+
+
+.people>span {
+    font-size: 25px;
+    margin:5px;
+}
+
+.component>button {
+    background-color: limegreen;
+    width: 210px;
+    padding: 8px;
+    color: white;
+    border-radius: 7px;
+    border-style: none;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    margin: 20px;
+    margin-top: 10px;
+}
+
+button>span {
+    font-size: 20px;
+}

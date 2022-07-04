@@ -1,0 +1,17 @@
+body {
+        width: 600px;
+        text-align: justify;
+        margin: auto;
+}
+
+table {
+        width: 100%;
+}
+
+.grey {
+        color: #817f7f;
+}
+
+a {
+        text-decoration: none;
+}

@@ -1,0 +1,64 @@
+body {
+        background-image: linear-gradient(to bottom, #175555, #1e4d4c, #224644, #253e3c, #263735);
+}
+
+a {
+        color: white;
+}
+
+* {
+        box-sizing: border-box;
+}
+
+body {
+        margin: 0px;
+}
+
+.container {
+        width: 70vw;
+        min-width: 576px;
+        max-width: 992px;
+        margin: auto;
+        text-align: justify;
+        color: #ffffff;
+}
+
+.head {
+        color: rgb(255, 255, 255);
+        margin: auto;
+        text-align: justify;
+        width: 70vw;
+        min-width: 676px;
+        max-width: 992px;
+}
+
+.img {
+        text-align: justify;
+        background-image: url(../img/3.jpg);
+        max-width: 100%;
+        background-size: cover;
+        max-width: 1920px;
+}
+
+.img2 {
+        width: 100%;
+        object-fit: cover;
+        height: 150px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px white
+} 
+
+.img3 {
+        width: 85%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px gray;
+}
+
+.img4 {
+        width: 95%;
+        height: 200px;
+        box-shadow: 0px 0px 10px limegreen;
+        border-radius: 15px;
+}

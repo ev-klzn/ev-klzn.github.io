@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.component {
+    margin: auto;
+    width: 300px;
+    border-radius: 15px;
+    border: 2px solid limegreen;
+    box-shadow: 0px 0px 5px grey;
+}
+
+.main {
+    width: 90%;
+    margin-top: 10px;
+}
+
+img {
+    width: 22%;
+}
+
+span {
+    text-decoration: line-through;
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(194, 3, 3);
+}
+
+span+span {
+    text-decoration: none;
+    color: limegreen;
+}
+
+div {
+    text-align: center;
+}
+
+h1+div {
+    text-align: justify;
+    margin: 20px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+    padding: 5px;
+    background-color: limegreen;
+    border-radius: 5px;
+    font-size: 30px;
+    color: white;
+    width: 255px;
+    box-shadow: 0px 0px 5px grey;
+    border-style: none;
+}

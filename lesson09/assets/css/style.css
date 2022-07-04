@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background-image: linear-gradient(to bottom, #e5e5e5, #e8e8e8, #ebebec, #edefef, #f0f2f2);
+}
+
+main {
+    text-align: justify;
+}
+
+.card {
+    width: calc( (100% - 3 * 17px) / 4);
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}

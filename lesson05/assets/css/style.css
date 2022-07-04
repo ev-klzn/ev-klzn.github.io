@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+html {
+    font-size: 12px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.container {
+    width: 820px;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-image: url(../img/biking.jpg);
+    border-left: 50px solid rgb(204, 0, 0);
+    border-right: 50px solid rgb(0, 0, 119);
+    margin: auto;
+}
+
+.a1 {
+    text-align: center;
+    color: rgb(224, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3.7rem;
+    font-weight: 100;
+    margin: 40px 30px;
+    text-shadow: 0px 0px 8px black;
+}
+
+.a2 {
+    text-align: center;
+    color: white;
+    font-family: 'Carter One', cursive;
+    margin: 40px 30px;
+    font-size: 2rem;
+    text-shadow: 0px 0px 8px rgb(0, 0, 0);
+    
+}
+
+.a3 {
+    text-align: center;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    margin: 40px 30px;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 0.95;
+    text-shadow: 0px 0px 8px rgb(0, 0, 0);
+}
+
+.a4 {
+    text-align: center;
+    color: white;
+    font-family: 'DM Mono', monospace;
+    margin: 40px 30px;
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 8px rgb(0, 0, 0);
+    
+}
+
+.a5 {
+    text-align: center;
+    color: orange;
+    font-family: 'Mali', cursive;
+    margin: 40px 30px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 0px 0px 8px rgb(0, 0, 0);
+    
+}
+
+.a6 {
+    text-align: center;
+    color: white;
+    font-family: 'Cookie', cursive;
+    margin: 40px 30px;
+    font-size: 4rem;
+    text-shadow: 0px 0px 8px rgb(0, 0, 0);
+     
+}
+
+.a7 {
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-family: 'Caveat', cursive;
+    margin: 40px 150px;
+    font-size: 3rem;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px black;
+    transform: rotate(-4deg);
+}
+
+.a8
+ {
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    margin: 40px 30px;
+    font-size: 2rem;
+    text-shadow: 0px 0px 8px rgb(0, 0, 0);
+}
+
+.bazilio {
+    color: rgb(223, 2, 2);
+}
