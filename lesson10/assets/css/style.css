@@ -11,7 +11,11 @@ p {
     background-image: linear-gradient(to bottom, #e7eaeb, #e8ebec, #e9eced, #eaeded, #ebeeee);
 }
 
-.elem {
-    width: calc (100% / 3);
-    height: width: calc (100% / 3);
+.followers {
+    background: yellow;
+}
+
+.followers-width {
+    background-color: aqua;
+
 }
