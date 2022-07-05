@@ -11,6 +11,7 @@ p {
     background-image: linear-gradient(to bottom, #e7eaeb, #e8ebec, #e9eced, #eaeded, #ebeeee);
 }
 
-.score {
-    width: calc( 100% / 3);
+.elem {
+    width: calc (100% / 3);
+    height: width: calc (100% / 3);
 }
