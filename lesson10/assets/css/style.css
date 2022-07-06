@@ -8,5 +8,10 @@ p {
 }
 
 .component {
-    background-image: linear-gradient(to bottom, #e7eaeb, #e8ebec, #e9eced, #eaeded, #ebeeee);
+    background-color: rgb(220, 220, 220);
+}
+
+.btn {
+    background-color: rgb(101, 163, 99);
+    color: white;
 }
