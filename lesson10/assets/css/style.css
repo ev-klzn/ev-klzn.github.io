@@ -10,12 +10,3 @@ p {
 .component {
     background-image: linear-gradient(to bottom, #e7eaeb, #e8ebec, #e9eced, #eaeded, #ebeeee);
 }
-
-.followers {
-    background: yellow;
-
-}
-
-.followers-width {
-    background-color: aqua;
-}
