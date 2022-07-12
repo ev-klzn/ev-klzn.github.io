@@ -1,0 +1,91 @@
+a {
+    text-decoration: none;
+    margin: 20px;
+}
+
+#img-road {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    height: 800px;
+}
+
+#car {
+    position: absolute;
+    left: 100px;
+    bottom: 75px;
+    animation-name: drive;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes drive {
+    0% {
+        left: 100px;
+        bottom: 50px;
+        transform: rotate(0deg);
+    }
+
+    15% {
+        left: 550px;
+        bottom: 50px;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        left: 680px;
+        bottom: 90px;
+        transform: rotate(-90deg);
+        
+    }
+
+    40% {
+        left: 680px;
+        bottom: 650px;
+        transform: rotate(-90deg);
+    }
+
+    50% {
+        left: 600px;
+        bottom: 720px;
+        transform: rotate(-180deg);
+    }
+
+    65% {
+
+        left: 55px;
+        bottom: 720px;
+        transform: rotate(-180deg)
+    }
+
+    75% {
+        left: 15px;
+        bottom: 670px;
+        transform: rotate(-270deg);
+    }
+
+    90% {
+        left: 15px;
+        bottom: 75px;
+        transform: rotate(-270deg);
+    }
+
+    100% {
+        left: 100px;
+        bottom: 50px;
+        transform: rotate(-360deg);
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+}
