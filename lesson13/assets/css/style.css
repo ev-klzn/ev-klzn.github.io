@@ -117,7 +117,7 @@ footer {
 #grid-cat {
     display:grid;
     grid-template-columns: 1fr;
-    grid-row: auto / auto / auto;
+    grid-row: auto/auto/auto;
     grid-template-areas:    "grid-cat"
                             "grid-cat"
                             "grid-cat";
@@ -144,7 +144,7 @@ footer {
     display:grid;
     align-items: center;
     grid-template-columns: 1fr;
-    grid-row: auto / auto / auto;
+    grid-row: auto/auto/auto;
     grid-template-areas:    "grid-card"
                             "grid-card"
                             "grid-card"
