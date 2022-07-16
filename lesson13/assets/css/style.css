@@ -1,0 +1,261 @@
+a {
+    text-decoration: none;
+    color: rgb(160, 159, 159);
+    transition: 0.3s;
+}
+
+a:hover {
+        color: rgb(0, 0, 0);
+}
+
+.card a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #e4e9e9, #e0e4e5, #dddedf, #d9d9da, #d4d4d4);
+}
+
+.container {
+    width: 100%;
+}
+
+#gridbox { 
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto auto auto;   
+    grid-template-areas:    "header"   
+                            "main"
+                            "contacts"
+                            "footer"
+                            "footer2";
+}
+
+header {
+    grid-area: header; 
+}
+
+@media (min-width:576px) {
+    .header {
+        padding: 25px;}
+}
+
+.home {
+    gap: 5px;
+}
+
+@media (min-width:576px) {
+    .home {
+         gap: 10px; }
+}
+
+@media (min-width:576px) {
+    main {
+        padding: 25px;
+        padding-top: 0px;}
+}
+
+@media (min-width:576px) {
+    .contacts {
+        padding: 25px;}
+}
+
+@media (min-width:576px) {
+    .footer-1 {
+        padding: 25px;}
+}
+
+main { 
+    grid-area: main; 
+}
+
+.contacts {
+    grid-area: contacts;
+}
+
+footer { 
+    grid-area: footer;
+}
+
+.footer2 {
+    grid-area: footer2;
+}
+
+.img-logo {
+    width: 100%;
+    border-radius: 0px;
+}
+
+.img-logo {
+    display: none;
+}
+
+@media (min-width:576px) {
+    .img-logo {display: inline;
+    }
+}
+
+.navbar-brand {
+    color: rgb(232, 227, 227);
+    transition: 0.3s;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(160, 159, 159);
+    transition: 0.3s;
+}
+.navbar-nav .nav-link.active:hover {
+    color: rgb(255, 255, 255);
+}
+
+#grid-cat {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-row: auto auto auto;
+    grid-template-areas:    "grid-cat"
+                            "grid-cat"
+                            "grid-cat";
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+@media (min-width:576px){
+    #grid-cat {
+        gap: 15px;
+        margin-top: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "grid-cat";
+    }
+}
+
+.grid-cat {
+    border-radius: 0px;
+    border: 0px;
+    min-width: 200px;
+}
+
+#grid-card {
+    display:grid;
+
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-row: auto auto auto;
+    grid-template-areas:    "grid-card"
+                            "grid-card"
+                            "grid-card"
+                            "grid-card"
+                            "grid-card"
+                            "grid-card"
+                            "grid-card"
+                            "grid-card";
+}
+
+@media (min-width:576px) {
+    #grid-card {
+        gap: 15px;
+        margin-top: 15px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "grid-card";
+    }
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: auto;
+    grid-row: auto;
+    text-align: center;
+    grid-template-areas:    
+                        "shipping"
+                        "CALL"
+                        "delivery";
+}
+
+@media (min-width:576px) {
+    .contacts {
+        grid-template-columns: auto 1fr auto;
+        grid-template-rows: auto;
+        grid-template-areas: "shipping CALL delivery";
+
+    }
+}
+
+.footer-1 {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto auto;
+    grid-template-areas:    "Information Service"
+                            "Extras Account";
+}
+
+@media (min-width:576px) {
+    .footer-1 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "Information Service Extras Account";
+
+    }
+}
+
+.shipping {
+    grid-area: shipping;
+}
+
+.CALL {
+    grid-area: CALL;
+}
+
+.delivery {
+    grid-area: delivery;
+}
+
+.cards:hover {
+    transform: scale(1.05);
+}
+
+.cards {
+    border: none;
+    background-color: #ece8e8;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 0px;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.price {
+    color: red;
+}
+
+.copy {
+    background-color: #363636;
+    color: white;
+    margin: 0px;
+}
+
+.navbar {
+    background-color: #363636;
+    color: white;
+}
+
+.btn {
+    background-color: #363636;
+    color: white;
+}
+
+.shipping {
+    color: #eeecec;
+}
+
+.delivery {
+    color: #eeecec;
+}
