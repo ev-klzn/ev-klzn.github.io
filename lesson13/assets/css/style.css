@@ -117,7 +117,7 @@ footer {
 #grid-cat {
     display:grid;
     grid-template-columns: 1fr;
-    grid-row: auto auto auto;
+    grid-row: auto / auto / auto;
     grid-template-areas:    "grid-cat"
                             "grid-cat"
                             "grid-cat";
@@ -142,10 +142,9 @@ footer {
 
 #grid-card {
     display:grid;
-
     align-items: center;
     grid-template-columns: 1fr;
-    grid-row: auto auto auto;
+    grid-row: auto / auto / auto;
     grid-template-areas:    "grid-card"
                             "grid-card"
                             "grid-card"
@@ -190,7 +189,7 @@ footer {
     display: grid;
     text-align: center;
     grid-template-columns: 1fr 1fr;
-    grid-row: auto auto;
+    grid-row: auto / auto;
     grid-template-areas:    "Information Service"
                             "Extras Account";
 }
@@ -200,7 +199,6 @@ footer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto;
         grid-template-areas: "Information Service Extras Account";
-
     }
 }
 
@@ -254,8 +252,10 @@ footer {
 
 .shipping {
     color: #eeecec;
+    padding-top: 10px;
 }
 
 .delivery {
     color: #eeecec;
+    padding-bottom: 10px;
 }
