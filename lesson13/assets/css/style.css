@@ -44,11 +44,13 @@ header {
 
 .home {
     gap: 5px;
+    padding: 3px;
+    text-align: center;
 }
 
 @media (min-width:576px) {
     .home {
-         gap: 10px; }
+         gap: 15px; }
 }
 
 @media (min-width:576px) {
