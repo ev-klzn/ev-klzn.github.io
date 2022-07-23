@@ -1,0 +1,43 @@
+a {
+    text-decoration: none;
+    color: #8c8989;
+}
+
+body {
+   color: #8c8989;
+}
+
+.img-logo {
+    width: 100px;
+}
+
+.container {
+    min-height: 100vh;
+    width: 600px;
+}
+
+form {
+    width: 220px;
+    box-shadow: 0px 0px 5px #8c8989;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.btn {
+    width: 100%;
+    background-color: #8c8989;
+    border-color: #8c8989;
+}
+
+.btn:hover {
+    background-color: #0098d0;
+    border-color: #0098d0;
+}
+
+input:valid+div {
+    display: none;
+}
+
+input:invalid+div+div {
+    display: none;
+}
