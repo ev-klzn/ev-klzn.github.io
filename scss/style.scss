@@ -62,11 +62,6 @@ body {
 			width: 100%;
 			aspect-ratio: 275 / 275;
 			object-fit: cover;
-			transition: border 0.3s;
-
-			&:hover {
-				border: 1px solid rgba(255, 255, 255, 0.5);
-			}
 		}
 	}
 
