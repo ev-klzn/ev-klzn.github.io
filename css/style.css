@@ -127,11 +127,6 @@ body {
   aspect-ratio: 275/275;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-transition: border 0.3s;
-  transition: border 0.3s;
-}
-.about__img img:hover {
-  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 .about__title {
   font-size: 40px;
