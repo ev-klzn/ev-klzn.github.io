@@ -19,7 +19,7 @@ html {
   min-width: 320px
 }
 body {
-  color: #dac5a7;
+  color: #00cc61;
   line-height: 1;
   font-family: Inter;
   font-size: 2.25rem;
@@ -69,7 +69,7 @@ h6 {
 }
 body {
   background-color: #000;
-  color: #dac5a7
+  color: #00cc61
 }
 .lock body {
   overflow: hidden;
