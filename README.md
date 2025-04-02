@@ -16,10 +16,10 @@ HTML (HTML5), CSS (CSS3), JavaScript, SASS (SCSS), BEM, WordPress, PHP, Google S
 #### Cheers,
 #### Yevhen
 
-info@webintersol.com
-https://webintersol.com/
-https://www.linkedin.com/in/ev-klzn/
-https://t.me/ev_klzn
+#### info@webintersol.com
+#### https://webintersol.com/
+#### https://www.linkedin.com/in/ev-klzn/
+#### https://t.me/ev_klzn
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=ev-klzn&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
