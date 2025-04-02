@@ -1,8 +1,11 @@
-User-agent: Yandex
+User-Agent: Yandex
 Disallow: /
 
 User-agent: *
 Allow: /
+Allow: /*.css
+Allow: /*.webp
+Allow: /*.js
+Allow: /*.svg
 
 Sitemap: https://ev-klzn.github.io/sitemap.xml
-Host: https://ev-klzn.github.io/
