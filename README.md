@@ -1,38 +1,25 @@
-Hello! My name is Yevhen, and I am an experienced SEO-based Web Developer. I specialize in developing fully responsive web pages that perform seamlessly across all devices—desktop, tablet, and mobile. By employing the BEM methodology, I ensure my code is clean, reusable, and built to last.
+### Hello! My name is Yevhen. More than 3 years of experience in web development. I craft high-performance, visually stunning, and user-friendly websites. I aim to create responsive websites that look great on any device and drive sales.
 
-I take pride in creating visually stunning, functional websites that not only captivate users but also drive business success. With a strong focus on collaboration, I work closely with clients to understand their vision and bring it to life, blending design aesthetics with robust development practices. Every site I build is optimized for search engines, improving visibility and conversion rates to foster business growth. My workflow prioritizes trust, open communication, and meeting deadlines, enabling me to deliver results that align with your business goals and exceed expectations.
+### 🔥 What I Do Best:
+- Landing Pages & Business Websites – I create modern, engaging websites with scroll-controlled animations and parallax effects using pure, clean code (no unnecessary frameworks).
+- Responsive Development – Ensuring your site looks and works perfectly on all screen sizes.
+- SEO & Performance Optimization – Every project includes basic SEO at no extra cost to improve your website’s visibility and conversions.
+- Accessibility & Usability – Making sure your website is not only stunning but also user-friendly and compliant with best practices.
 
-I offer basic SEO optimization as a free service to ensure your web presence gets off to the best possible start.
+### 🛠️ Technologies:
+HTML (HTML5), CSS (CSS3), JavaScript, SASS (SCSS), BEM, WordPress, PHP, Google Search Console, Google Analytics.
 
-If you’re looking for a partner to help elevate your digital presence, let’s connect. Together, we can create a website that not only stands out visually but also supports your long-term growth.
+### 💡 Why Work With Me?
+- Reliable & Deadline-Oriented;
+- Detail-Focused & Results-Driven.
 
-Looking forward to collaborating with you,
-Yevhen
+#### Cheers,
+#### Yevhen
 
-https://webintersol.com/
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=ev-klzn&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=ev-klzn&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=ev-klzn&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-Tech Stack:
-
-✅ Web Development
-✅ Front-End Development
-✅ HTML5
-✅ CSS3
-✅ SASS (SCSS)
-✅ JavaScript
-✅ Responsive web pages (desktop, tablet, mobile)
-✅ Clean code (no frameworks)
-✅ UI Animations
-✅ Parallax Scrolling
-✅ BEM
-✅ WordPress
-✅ GitHub
-
-✅ SEO audit
-✅ Screaming Frog SEO Spider
-✅ Technical SEO
-✅ Ahrefs
-✅ SEO optimization
-✅ ChatGPT
-✅ SEO Writing
-✅ Google Search Console
-✅ Google Analytics
+---
+[![](https://visitcount.itsvg.in/api?id=ev-klzn&icon=0&color=0)](https://visitcount.itsvg.in)
