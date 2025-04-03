@@ -21,6 +21,7 @@ HTML (HTML5), CSS (CSS3), JavaScript, SASS (SCSS), BEM, WordPress, PHP, Google S
 #### portfolio website https://webintersol.com/
 #### linkedin https://www.linkedin.com/in/ev-klzn/
 #### telegram https://t.me/ev_klzn
+#### whatsapp https://wa.me/380685219100
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=ev-klzn&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
