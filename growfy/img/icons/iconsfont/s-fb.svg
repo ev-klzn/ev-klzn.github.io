@@ -1,0 +1,15 @@
+<svg width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip8_35">
+			<rect id="face" width="20.000000" height="20.000000" transform="translate(8.000000 8.484375)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="face" width="20.000000" height="20.000000" transform="translate(8.000000 8.484375)" fill="#1A1A1E" fill-opacity="0"/>
+	<g clip-path="url(#clip8_35)">
+		<path id="f" d="M20.5625 18.9512L21 16.6177L18.8125 16.6182L18.8125 14.751C18.8125 14.0303 19.1555 13.8179 20.125 13.8179L21 13.8179L21 11.4844C21 11.4844 20.1031 11.4844 19.25 11.4844C17.4685 11.4844 16.1875 12.6206 16.1875 14.751L16.1875 16.6177L14 16.6177L14 18.9512L16.1875 18.9512L16.1875 25.4844L18.8125 25.4844L18.8125 18.9512L20.5625 18.9512Z" fill="#75757F" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<rect id="a#w-node-_0dfbe7a0-261a-0002-65c5-22e86775eb2e-6775eb1b" rx="9.000000" width="35.000000" height="35.000000" transform="translate(0.500000 0.500000)" stroke="#81818B" stroke-opacity="0.900000" stroke-width="1.000000"/>
+</svg>
