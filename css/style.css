@@ -530,6 +530,11 @@ body {
   z-index: 1;
   background: rgba(0,0,0,.8)
 }
+.work--no-filter::before {
+  width: 0;
+  height: 0;
+  background: rgba(0,0,0,.8)
+}
 .work__img {
   aspect-ratio: 580/580
 }
