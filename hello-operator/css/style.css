@@ -580,20 +580,6 @@ html {
   text-transform: uppercase;
   transition: .5s color
 }
-.menu li:last-child a {
-  display: inline-flex;
-  padding-block: .1875rem;
-  padding-inline: 2rem;
-  border-radius: .25rem;
-  border: .125rem solid var(--chili,#be4c40);
-  background: var(--chili,#be4c40);
-  box-shadow: 4px 4px 20px 0 rgba(66,4,0,.1);
-  color: var(--white,#fff);
-  font-weight: 600;
-  transition: all .5s;
-  justify-content: center;
-  align-items: center
-}
 .icon-menu {
   margin-bottom: .375rem;
   display: none
@@ -2869,12 +2855,6 @@ html {
   }
   .menu li a:hover {
     color: #be4c40
-  }
-  .menu li:last-child a:hover {
-    border: 2px solid var(--chaotic-red,#780600);
-    background: var(--chaotic-red,#780600);
-    box-shadow: 8px 8px 20px 0 rgba(66,4,0,.2);
-    color: var(--white,#fff)!important
   }
   .footer--dark .footer__link:hover {
     color: var(--magnolia_pink,#eeb9b3)
