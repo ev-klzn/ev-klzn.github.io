@@ -80,6 +80,10 @@ body {
   -ms-scroll-chaining: none;
   overscroll-behavior: none
 }
+.loaded body {
+  opacity: 1;
+  transition: .75s
+}
 .wrapper {
   min-height: 100%;
   display: flex;
@@ -215,12 +219,6 @@ body {
 @media (max-width:47.99875em) {
   .works__wrapper {
     grid-template-columns: auto
-  }
-  .work._watcher-view {
-    transition-delay: .1s;
-    -webkit-transform: translate(0,0);
-    transform: translate(0,0);
-    opacity: 1
   }
 }
 @media (min-width:20em)and (max-width:75em) {
