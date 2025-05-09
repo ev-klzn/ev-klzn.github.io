@@ -80,10 +80,6 @@ body {
   -ms-scroll-chaining: none;
   overscroll-behavior: none
 }
-.loaded body {
-  opacity: 1;
-  transition: .5s
-}
 .wrapper {
   min-height: 100%;
   display: flex;
@@ -221,99 +217,10 @@ body {
     grid-template-columns: auto
   }
   .work._watcher-view {
-    opacity: 1;
+    transition-delay: .1s;
     -webkit-transform: translate(0,0);
-    transform: translate(0,0)
-  }
-  .work._watcher-view:nth-child(1) {
-    transition-delay: .1001s
-  }
-  .work._watcher-view:nth-child(2) {
-    transition-delay: .1002s
-  }
-  .work._watcher-view:nth-child(3) {
-    transition-delay: .1003s
-  }
-  .work._watcher-view:nth-child(4) {
-    transition-delay: .1004s
-  }
-  .work._watcher-view:nth-child(5) {
-    transition-delay: .1005s
-  }
-  .work._watcher-view:nth-child(6) {
-    transition-delay: .1006s
-  }
-  .work._watcher-view:nth-child(7) {
-    transition-delay: .1007s
-  }
-  .work._watcher-view:nth-child(8) {
-    transition-delay: .1008s
-  }
-  .work._watcher-view:nth-child(9) {
-    transition-delay: .1009s
-  }
-  .work._watcher-view:nth-child(10) {
-    transition-delay: 101ms
-  }
-  .work._watcher-view:nth-child(11) {
-    transition-delay: .1011s
-  }
-  .work._watcher-view:nth-child(12) {
-    transition-delay: .1012s
-  }
-  .work._watcher-view:nth-child(13) {
-    transition-delay: .1013s
-  }
-  .work._watcher-view:nth-child(14) {
-    transition-delay: .1014s
-  }
-  .work._watcher-view:nth-child(15) {
-    transition-delay: .1015s
-  }
-  .work._watcher-view:nth-child(16) {
-    transition-delay: .1016s
-  }
-  .work._watcher-view:nth-child(17) {
-    transition-delay: .1017s
-  }
-  .work._watcher-view:nth-child(18) {
-    transition-delay: .1018s
-  }
-  .work._watcher-view:nth-child(19) {
-    transition-delay: .1019s
-  }
-  .work._watcher-view:nth-child(20) {
-    transition-delay: 102ms
-  }
-  .work._watcher-view:nth-child(21) {
-    transition-delay: .1021s
-  }
-  .work._watcher-view:nth-child(22) {
-    transition-delay: .1022s
-  }
-  .work._watcher-view:nth-child(23) {
-    transition-delay: .1023s
-  }
-  .work._watcher-view:nth-child(24) {
-    transition-delay: .1024s
-  }
-  .work._watcher-view:nth-child(25) {
-    transition-delay: .1025s
-  }
-  .work._watcher-view:nth-child(26) {
-    transition-delay: .1026s
-  }
-  .work._watcher-view:nth-child(27) {
-    transition-delay: .1027s
-  }
-  .work._watcher-view:nth-child(28) {
-    transition-delay: .1028s
-  }
-  .work._watcher-view:nth-child(29) {
-    transition-delay: .1029s
-  }
-  .work._watcher-view:nth-child(30) {
-    transition-delay: 103ms
+    transform: translate(0,0);
+    opacity: 1
   }
 }
 @media (min-width:20em)and (max-width:75em) {

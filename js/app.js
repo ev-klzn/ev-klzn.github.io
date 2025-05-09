@@ -1,13 +1,6 @@
 (() => {
     "use strict";
     const modules_flsModules = {};
-    function addLoadedClass() {
-        if (!document.documentElement.classList.contains("loading")) window.addEventListener("load", (function() {
-            setTimeout((function() {
-                document.documentElement.classList.add("loaded");
-            }), 0);
-        }));
-    }
     function functions_FLS(message) {
         setTimeout((() => {
             if (window.FLS) console.log(message);
@@ -131,5 +124,4 @@
         }
     }), 0);
     window["FLS"] = false;
-    addLoadedClass();
 })();
