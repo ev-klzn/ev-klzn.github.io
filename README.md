@@ -14,8 +14,8 @@ HTML (HTML5), CSS (CSS3), JavaScript, SASS (SCSS), BEM, WordPress, PHP, Google S
 - Reliable & Deadline-Oriented;
 - Detail-Focused & Results-Driven.
 
-### Cheers,
-### Yevhen
+##### Cheers,
+##### Yevhen
 
 #### e-mail info@webintersol.com
 #### portfolio website https://webintersol.com/
