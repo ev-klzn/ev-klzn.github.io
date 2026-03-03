@@ -8,7 +8,7 @@ More than 3 years of experience in web development. I craft high-performance, vi
 - Accessibility & Usability – Making sure your website is not only stunning but also user-friendly and compliant with best practices.
 
 ### 🛠️ Technologies:
-HTML (HTML5), CSS (CSS3), JavaScript, SASS (SCSS), BEM, WordPress, PHP, Google Search Console, Google Analytics.
+HTML, CSS, JavaScript, SASS (SCSS), BEM, WordPress, PHP, Google Search Console, Google Analytics.
 
 ### 💡 Why Work With Me?
 - Reliable & Deadline-Oriented;
