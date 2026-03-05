@@ -1,5 +1,5 @@
 ### Hello! My name is Yevhen. 
-More than 3 years of experience in web development. I craft high-performance, visually stunning, and user-friendly websites. I aim to create responsive websites that look great on any device and drive sales.
+3+ years of experience in Web Development. I craft high-performance, visually stunning, and user-friendly websites. I aim to create responsive websites that look great on any device and drive sales.
 
 ### 🔥 What I Do Best:
 - Landing Pages & Business Websites – I create modern, engaging websites with scroll-controlled animations and parallax effects using pure, clean code (no unnecessary frameworks).
@@ -17,11 +17,11 @@ HTML, CSS, JavaScript, SASS (SCSS), BEM, WordPress, PHP, Google Search Console, 
 ##### Cheers,
 ##### Yevhen
 
-#### e-mail info@webintersol.com
-#### portfolio website https://webintersol.com/
-#### linkedin https://www.linkedin.com/in/ev-klzn/
-#### whatsapp https://wa.me/380685219100
-#### telegram https://t.me/ev_klzn
+#### E-Mail info@webintersol.com
+#### Portfolio website https://webintersol.com/
+#### LinkedIn https://www.linkedin.com/in/ev-klzn/
+#### WhatsApp https://wa.me/380685219100
+#### Telegram https://t.me/ev_klzn
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=ev-klzn&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
