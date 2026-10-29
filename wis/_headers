@@ -1,0 +1,22 @@
+# Copy of the site: keep every page and file out of search engines.
+/*
+  X-Robots-Tag: noindex, nofollow
+
+# Browser caching for static files. HTML keeps Netlify's default (always revalidated).
+# css/js links carry ?_v=<hash>; refresh it with ./bump-assets.sh after editing them.
+
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Images and video keep their file names when replaced, so cache for 30 days, not a year.
+/img/*
+  Cache-Control: public, max-age=2592000
+
+/favicon.ico
+  Cache-Control: public, max-age=86400

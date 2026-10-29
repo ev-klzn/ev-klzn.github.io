@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="description" content="The page you are looking for doesn't exist or has been moved.">
+	<title>Page Not Found – Web Interface Solutions</title>
+	<!-- Served by Netlify for any missing URL, so every path here must be absolute -->
+	<link rel="stylesheet" href="/css/style.min.css?_v=5eb2756e2b">
+	<link rel="shortcut icon" href="/favicon.ico">
+	<style>
+		.error {
+			height: auto;
+			min-height: 100vh;
+			padding: 7.5rem 0.9375rem 3.75rem;
+			justify-content: center;
+		}
+
+		.error__container {
+			position: relative;
+			max-width: 56.25rem;
+			width: 100%;
+			padding: clamp(3.75rem, 2.5rem + 5vw, 6.25rem) clamp(1.25rem, 0.5rem + 3vw, 3.75rem) clamp(2.5rem, 2rem + 2vw, 3.75rem);
+			color: #fff;
+			text-align: center;
+		}
+
+		.error__decor {
+			position: absolute;
+			top: clamp(1.25rem, 0.75rem + 2vw, 2.5rem);
+			right: clamp(1.25rem, 0.75rem + 2vw, 2.5rem);
+			width: clamp(2.25rem, 1.75rem + 2vw, 3rem);
+			aspect-ratio: 47 / 42;
+		}
+
+		/* Outline drawn with text-shadow like the site's ticker: -webkit-text-stroke shows Inter's overlapping contours */
+		.error__code {
+			font-weight: 800;
+			line-height: 0.9;
+			font-size: clamp(6.25rem, 3.5rem + 13vw, 13.75rem);
+			letter-spacing: 0.02em;
+			margin-bottom: clamp(1.25rem, 1rem + 1vw, 1.875rem);
+			color: #000;
+			text-shadow: -2px -2px 0 #fff, 0 -2px 0 #fff, 2px -2px 0 #fff, 2px 0 0 #fff, 2px 2px 0 #fff, 0 2px 0 #fff, -2px 2px 0 #fff, -2px 0 0 #fff;
+		}
+
+		.error__code span {
+			color: #00cc61;
+			text-shadow: none;
+		}
+
+		.error__title {
+			font-size: clamp(1.75rem, 1.25rem + 2.5vw, 3.75rem);
+		}
+
+		.error__label {
+			font-size: clamp(1rem, 0.9rem + 0.5vw, 1.375rem);
+			margin-bottom: clamp(1.875rem, 1.5rem + 1.5vw, 3.125rem);
+		}
+
+		.error__actions {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 1.25rem;
+		}
+
+		.error__actions .button {
+			color: #000;
+		}
+
+		.error__actions .error__button--ghost {
+			background-color: transparent;
+			color: #fff;
+			box-shadow: inset 0 0 0 1px #fff;
+		}
+
+		.error__actions .error__button--ghost:hover {
+			background-color: #fff;
+			color: #000;
+		}
+
+		@media (max-width: 47.99875em) {
+			.error {
+				min-height: auto;
+				padding-top: 6.25rem;
+				padding-bottom: 2.5rem;
+			}
+		}
+
+		@media (max-width: 29.99875em) {
+			.error__actions .button {
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-lp class="header">
+			<div class="header__container">
+				<a href="/" class="header__logo">
+					<img class="header__logo-img ibg ibg--contain" src="/img/logo.svg" alt="Web Interface Solutions">
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a class="menu__link" href="/services.html">services</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="/works.html">portfolio</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="/about.html">team</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="/pricing.html">pricing</a>
+							</li>
+							<li data-goto-header data-goto=".footer" class="menu__item">
+								<a class="menu__link" href="#">contacts</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__switcher">
+					<a href="#" class="header__switcher-link header__switcher-link--active">ENG</a>
+					<a href="/ua/" class="header__switcher-link header__switcher-link--no-active">UA</a>
+				</div>
+				<button aria-label="Menu" type="button" class="icon-menu">
+					<span></span>
+				</button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__seccess seccess error">
+				<div class="seccess__container error__container">
+					<div class="error__decor">
+						<img class="ibg" src="/img/icons/decor-boxes.svg" alt="">
+					</div>
+					<p class="error__code" aria-hidden="true">4<span>0</span>4</p>
+					<h1 class="error__title title">
+						<span data-watch data-watch-once>Page not found</span>
+					</h1>
+					<div class="error__label label">
+						<span data-watch data-watch-once>The page you are looking for</span>
+						<span data-watch data-watch-once>doesn't exist or has been moved</span>
+					</div>
+					<div class="error__actions">
+						<a data-watch data-watch-once class="button" href="/">Back to home</a>
+						<a data-watch data-watch-once class="button error__button--ghost" href="/works.html">Our works</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer footer--white">
+			<div class="footer__container">
+				<div class="footer__logo">
+					<span class="footer__copy">Power by:</span>
+					<a href="/" class="footer__logo"><img class="footer__img ibg" src="/img/logo-footer.svg" alt="Web Interface Solutions"></a>
+				</div>
+				<div class="footer__socials">
+					<a aria-label="Phone" target="_blank" class="footer__socials-link _icon-phone" href="#"></a>
+					<a aria-label="Telegram" target="_blank" class="footer__socials-link _icon-telegram" href="#"></a>
+					<a aria-label="WhatsApp" target="_blank" class="footer__socials-link _icon-whatsupp" href="#"></a>
+					<a aria-label="Viber" target="_blank" class="footer__socials-link _icon-viber" href="#"></a>
+				</div>
+				<div class="footer__body">
+					<ul class="footer__row">
+						<li><a class="footer__link" href="/services.html">services</a></li>
+						<li><a class="footer__link" href="/works.html">portfolio</a></li>
+						<li><a class="footer__link" href="/about.html">team</a></li>
+						<li><a class="footer__link" href="/pricing.html">pricing</a></li>
+						<li>Copyright © 2026 WIS</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="/js/app.min.js?_v=9c2529d556"></script>
+</body>
+
+</html>

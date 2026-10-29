@@ -1,0 +1,3 @@
+# Missing URLs under /ua/ get the Ukrainian 404 page; everything else falls back to /404.html.
+# Netlify applies this only when no file exists at the requested path, so real pages are unaffected.
+/ua/*  /ua/404.html  404
